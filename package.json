@@ -1,0 +1,32 @@
+{
+  "name": "fs0816-assignment3-restaurants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node .",
+    "start:watching": "nodemon .",
+    "test": "_mocha test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TylerGarlick@github.com/helio-training/fs0816-assignment3-restaurants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helio-training/fs0816-assignment3-restaurants/issues"
+  },
+  "homepage": "https://github.com/helio-training/fs0816-assignment3-restaurants#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-pundits": "^1.0.6",
+    "babel-register": "^6.14.0",
+    "code": "^4.0.0",
+    "mocha": "^3.1.0"
+  }
+}
