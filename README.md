@@ -138,7 +138,7 @@ app.get('/restaurant', (request, response) => {
 
 #### Helpers & Hints
 
-1. The query to find favorites should be something like `{ isActive:
+1. The query to find favorites should be something like `{ isFavorite:
    true }`.
 
 2. Remember that this field is something we created, so not everything
